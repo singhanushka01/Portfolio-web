@@ -1,0 +1,174 @@
+.circular_image{
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 300px;
+    height: 480px;
+    border-radius: 200px;
+    border-color: grey;
+    border-width: 10px;
+    overflow: hidden;
+    background-color: none;
+    filter: grayscale(100%);
+}
+.logo{
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+    width: 90px;
+    height: 80px;
+    border-radius: 50%;
+    border-color: grey;
+    border-width: 10px;
+}
+#img:hover{
+    content: url("smile.jpg");
+    cursor: pointer;
+}
+.logot{
+    float: none;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border-color: grey;
+    border-width: 10px;
+}
+.logos{
+    float: none;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-color: grey;
+    border-width: 10px;
+}
+.button{
+    background-image: url("background1.jpg");
+    border: 2px solid gray;
+    border-radius: 10px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 5px;
+    width: 200px;
+}
+.button:hover{
+    background-image: none;
+    background-color: #FF8C00;
+    color: white;
+    cursor: pointer;
+}
+.buttonactive{
+    background-color: #FF8C00;
+    border: 2px solid gray;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 5px;
+    width: 200px;
+}
+.buttonactive:hover{
+    background-image: none;
+    background-color: #FF5349;
+    color: white;
+    cursor: pointer;
+}
+.div{
+    color: black;
+    background-image: url("background1.jpg");
+    font-size: 24px;
+}
+.divt{
+    color: white;
+    font-size: 24px;
+}
+.division{
+    position: relative;
+    color: black;
+    background-color: white;
+}
+.division div{
+        position: absolute;
+        top: 300px;
+        left: 125px;
+        background: white;
+        color: black;
+        margin-bottom: 5px;
+        margin-right: 5px;
+        font-family: sans-serif;
+        opacity: 0;
+        visibility: hidden;
+        -webkit-transition: visibility 0s, opacity 0.5s linear; 
+        transition: visibility 0s, opacity 0.5s linear;
+}
+.division:hover{
+    cursor: pointer;
+}
+.division:hover div{
+    width: 94px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7; 
+}
+.div2{
+    position: relative;
+    color: black;
+    background-color: white;
+}
+.div2 div{
+        position: absolute;
+        top: 450px;
+        right: 10%;
+        background: white;
+        color: black;
+        margin-bottom: 5px;
+        margin-right: 5px;
+        font-family: sans-serif;
+        opacity: 0;
+        visibility: hidden;
+        -webkit-transition: visibility 0s, opacity 0.5s linear; 
+        transition: visibility 0s, opacity 0.5s linear;
+}
+.div2:hover{
+    cursor: pointer;
+}
+.div2:hover div{
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7; 
+}
+table,th,td{
+    background-image: url("background1.jpg");
+    color: black;
+    border: 2px solid #FF8C00;
+    border-style: inset;
+    border-collapse: collapse;
+    width: 1450px;
+    text-align: center;
+    text-size-adjust: auto;
+    font-size: 24px;
+    padding: 15px;
+    border-bottom: 2px solid #FF5349;
+}
+.table tr{
+    border-bottom: 2px solid #FF5349;
+}
+.table th:hover,td:hover{
+    background-image: none;
+    background-color: #FF5349;
+    color: white;
+}
+p{
+    margin: 10px 5px 15px 10px;
+}
